@@ -2,34 +2,43 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    color:grey;
-    line-height:1.5em;
 }
 
-.nav {
-    background-color: lightblue;
-    height:110px;
-    width:40%
+.container {
+   
+}
+h1 {
+    margin:.5em;
+    padding-left:.5em;
+    color:steelblue;
+}
+img {
+    width:100%;
+}
+nav {
+    width:100%;
+    margin:0 1em;
 }
 
-.nav ul {
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
     
 }
-
-nav li {
-    display:inline;
-    margin:3em;
-    
+nav ul li {
+    list-style: none;
 }
 
-.nav a {
-    display:inline-block;
-    padding-top:1.2em;
-    color:white;
+
+nav ul li a {
     text-decoration: none;
-    font-size:2em;
+    font-size:1.8rem;
+    color:steelblue;
 }
-.nav a:hover {
-    color: steelblue;
-    
+
+nav ul li a:hover {
+    color:black;
+
+
 }
